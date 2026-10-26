@@ -1,0 +1,27 @@
+{
+  "name": "imovies-server",
+  "version": "1.0.0",
+  "description": "IMovies Ticket Booking API with Express, Mongoose, and Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seeds/seedRunner.js"
+  },
+  "keywords": ["movie", "ticket-booking", "express", "mongoose", "socket.io"],
+  "author": "IMovies Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.1.0"
+  }
+}

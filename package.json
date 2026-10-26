@@ -1,0 +1,14 @@
+{
+  "name": "imovies-cinema-booking",
+  "version": "1.0.0",
+  "description": "IMovies MERN Cinema Ticket Booking System",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": ["mern", "movies", "ticket-booking", "react", "express", "mongodb", "socket.io"],
+  "author": "IMovies Team",
+  "license": "ISC"
+}

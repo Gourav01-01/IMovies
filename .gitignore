@@ -1,0 +1,21 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Build outputs
+client/dist/
+dist/
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
+server/uploads/
+!server/uploads/.gitkeep
